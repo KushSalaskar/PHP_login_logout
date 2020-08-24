@@ -17,7 +17,7 @@
 			 		echo '<p class="errormsg">Please fill all the details!</p>';
 			 	}
 			 	elseif ($_GET['error']=='invalidmailUsername') {
-			 		echo '<p class="errormsg">Please enter valid Username and Email address</p>';
+			 		echo '<p class="errormsg">Please enter valid Username and Email address!</p>';
 			 	}
 			 	elseif ($_GET['error']=='invalidmail') {
 			 		echo '<p class="errormsg">Please enter valid Email address!</p>';
