@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap')
+
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background: rgb(30, 51, 74);
+	box-sizing: border-box;
+}
+
+.formcolor{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	width:300px;
+	padding:40px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	text-align: center;
+	background: #191919;
+	color:white;
+	transform: translate(-50% , -50%);
+	margin:10px;
+	padding: 20px;
+}
+
+.formcolor h1{
+	font-weight: 800;
+}
+
+.formcolor h3{
+	font-weight: 400;
+	color: gray;
+}
+
+.formcolor input[type ="text"], .formcolor input[type ="password"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width:200px;
+	outline: none;
+	color: white;
+	border-radius: 25px;
+
+}
+
+
+.formcolor input[type ="text"]:focus, .formcolor input[type ="password"]:focus {
+	width: 280px;
+	border-color: #2ecc71;
+	transition: 0.20s;
+}
+
+.formcolor input[type = "submit"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	padding: 14px 40px;
+	outline: none;
+	color: white;
+	border-radius: 25px;
+	transition: 0.20s;
+	cursor: pointer;
+}
+
+.formcolor input[type = "submit"]:hover{
+	background: #2ecc71
+
+}
+
+.formcolor a{
+	color: white;
+	text-decoration:  none;
+
+}
+
+.formcolor a:hover{
+	color: #2ecc71
+}
+
+.errormsg{
+	color: red;
+}
+
+.successmsg{
+	color: #2ecc71;
+}
+
+header{
+	background: #191919;
+	color: white;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight: 800;
+	font-size: 16px;
+	display: flex;
+	justify-content: space-between;
+	align-content: right;
+    padding: 8px 8px;
+}
+
+.nav-links{
+	list-style: none;
+}
+
+.nav-links li{
+	display: inline-block;
+	padding-right: 10px;
+
+}
+
+.nav-links li a{
+	text-decoration: none;
+	color:white;
+	transition: all ease 0.3s;
+
+}
+
+.nav-links li a:hover{
+	color: #2ecc71;
+}
+
+.lgscript input[type='submit']{
+		border: 0;
+	background: none;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	display: inline-block;
+	margin: 8px;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	padding: 8px 15px;
+	outline: none;
+	color: white;
+	border-radius: 25px;
+	transition: 0.20s;
+	cursor: pointer;
+
+
+}
+
+.lgscript input[type='submit']:hover{
+	background: #2ecc71;
+}
